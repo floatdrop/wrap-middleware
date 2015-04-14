@@ -1,0 +1,28 @@
+{
+  "name": "wrap-middleware",
+  "version": "0.0.0",
+  "description": "My good module",
+  "license": "MIT",
+  "repository": "floatdrop/wrap-middleware",
+  "author": {
+    "name": "Vsevolod Strukchinsky",
+    "email": "floatdrop@gmail.com",
+    "url": "github.yandex-team.ru/floatdrop"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
