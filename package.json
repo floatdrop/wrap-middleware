@@ -1,6 +1,6 @@
 {
   "name": "wrap-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My good module",
   "license": "MIT",
   "repository": "floatdrop/wrap-middleware",
@@ -19,7 +19,10 @@
     "index.js"
   ],
   "keywords": [
-    "wrap", "middleware", "before", "after"
+    "wrap",
+    "middleware",
+    "before",
+    "after"
   ],
   "dependencies": {},
   "devDependencies": {
