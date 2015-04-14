@@ -11,8 +11,10 @@ module.exports = function (middleware) {
 	var after = nop;
 
 	var result = function (req, res, next) {
-		before(req, res, function () {
-			middleware(req, res, function () {
+		before(req, res, function (err) {
+			if (err) { return next(err); }
+			middleware(req, res, function (err) {
+				if (err) { return next(err); }
 				after(req, res, next);
 			});
 		});
