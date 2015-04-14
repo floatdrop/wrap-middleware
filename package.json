@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "wrap", "middleware", "before", "after"
   ],
   "dependencies": {},
   "devDependencies": {
