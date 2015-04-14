@@ -13,7 +13,7 @@ $ npm install --save wrap-middleware
 
 ```js
 var wrapMiddleware = require('wrap-middleware');
-var myMw = function () {};
+var myMw = function (req, res, next) { next(); };
 
 wrapMiddleware(myMw)
 	.before(function (req, res, next) {
